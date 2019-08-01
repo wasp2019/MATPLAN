@@ -1,0 +1,50 @@
+[
+  {"type": "thermal",
+  "code": "FLG1",
+  "unit_number": 4,
+  "forced_outage_rate":10,
+  "capacity": [270, 270, 270, 270, 270, 270, 270, 270],
+  "para": [150, 270, 1, 3300, 2850, 10, 10, 56, 280, 600, 0, 4.06, 4.9, 1800, 2.5, 1.0],
+  "existing_plan": {"number": [-1, -1], "year": [2023, 2024]}},
+  
+ {"type": "thermal",
+  "code": "FLG2",
+  "unit_number": 9,
+  "forced_outage_rate":10,
+  "capacity": [276, 276, 276, 276, 276, 276, 276, 276],
+  "para": [150, 276, 2, 2900, 2550, 10, 8.9, 56, 280, 495, 0, 1.91, 2.0, 1800, 2.5, 1.0],
+  "existing_plan": {"number": [-1, -1], "year": [2025, 2026]}},
+  
+ {"type": "wind",
+  "code": "WIND1",
+  "forced_outage_rate":0,
+  "capacity": [100,100,100,100,100,100,100,100],
+  "unit_number": 6,
+  "speed": [3.5, 12.5, 30],
+  "state_number": [10],
+  "feature": {"type": [0],
+   "path": "projects/project_1/user_input/data/wind1/wind_2012_5min.csv"},
+  "existing_plan": {"number": [1], "year": [2026]}},
+  
+  
+ {"type": "solar",
+  "code": "SOLAR1",
+  "forced_outage_rate":0,
+  "capacity": [50,50,50,50,50,50,50,50],
+  "unit_number": 4,
+  "state_number": [10],
+  "feature": {"type": [0],
+   "path": "projects/project_1/user_input/data/solar1/solar_5min_1.csv"},
+  "existing_plan": {"number": [1], "year": [2020]}},
+  
+ 
+  
+ {"type": "hydro",
+  "code": "HYDRO_CANDI_1",
+  "forced_outage_rate":5,
+  "capacity": [850, 860, 890, 920, 850, 860, 890, 920],
+  "existing_plan": {"number": [-1], "year": [2022]},
+  "unit_number": 1}
+  
+ 
+]

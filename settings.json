@@ -1,0 +1,6 @@
+{
+    "project_name": "project_1",
+    "year_divisions_days":[91,183,274,365],
+    "day_divisions_hours":[[7,17],[6,18],[7,19],[8,16]],
+	"study_period": [1998, 2017]
+}

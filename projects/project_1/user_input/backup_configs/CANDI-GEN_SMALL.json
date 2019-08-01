@@ -1,0 +1,91 @@
+{
+    "reserve_margins":{
+        "margins":[[15,50],[20,40]],
+        "year":[2018,2024]
+    },
+	"generators": [
+        {
+        "type": "thermal",
+		"code": "V-CC",
+        "forced_outage_rate":10,
+        "capacity": [600, 600, 600, 600, 600, 600, 600, 600],
+		"para":[300, 600, 6, 1950, 1950, 0, 10, 28, 600, 0, 1200, 2.1, 4.0, 11000, 0.0, 0.5],
+        "plans":{
+            "number": [[0,2],[1,2], [2,4]],
+            "year": [2021, 2023, 2024]
+            }
+		},
+		
+		{
+		"code": "WIND_CANDI_2",
+        "type": "wind",
+		"capacity": [30,30,30,30,30,30,30,30],
+        "forced_outage_rate":0,
+		"speed": [3.5, 12.5, 30],
+        "state_number": [10],
+        "plans":{
+            "number": [[0,5],[1,10]],
+            "year": [2022,2024]
+            },
+        "feature":{
+            "type": [0],
+            "path": "projects/project_1/user_input/data/wind2/winda_2007_5min.csv"
+            }
+		},
+       
+        {
+        "type": "solar",
+		"code": "SOLAR_CANDI_1",
+		"capacity": [50,50,50,50,50,50,50,50],
+        "forced_outage_rate":0,
+        "state_number": [10],
+        "plans":{
+            "number": [[0,2],[2,4]],
+            "year": [2021,2025]
+            },
+        "feature":{
+            "type": [0],
+            "path": "projects/project_1/user_input/data/solar1/solar_5min_1.csv"
+            }
+		},
+		{
+		"code": "SOLAR_CANDI_2",
+        "type": "solar",
+		"capacity": [50,50,50,50,50,50,50,50],
+        "forced_outage_rate":0,
+        "state_number": [10],
+        "feature":{
+            "type": [0],
+            "path": "projects/project_1/user_input/data/solar1/solar_5min_2.csv"
+            },
+		
+        "plans":{
+            "number": [[0,1],[1,2]],
+            "year": [2020, 2024]
+            }
+
+		},
+
+       {
+		"code": "HYDRO_CANDI_1",
+        "type": "hydro",
+		"capacity": [650, 670, 710, 700, 650, 670, 710, 700],
+        "forced_outage_rate":0,
+        "plans":{
+            "number": [[0,1],[1,0]],
+            "year": [2022, 2026]
+            }
+
+		},
+		{
+		"code": "HYDRO_CANDI_2",
+        "type": "hydro",
+		"capacity": [220,220,220,220,220,220,220,220],
+        "forced_outage_rate":0,
+        "plans":{
+            "number": [[0,1],[1,0]],
+            "year": [2018, 2023]
+            }
+		}
+    ]
+}        

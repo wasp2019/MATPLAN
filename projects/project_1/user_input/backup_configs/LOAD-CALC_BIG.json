@@ -1,0 +1,34 @@
+{
+
+	"peak": [6000, 6333, 6725.65, 7109.01, 7496.45, 7897.51, 8304.23,
+		8702.83, 9120.57, 9558.36, 10017.2, 10488, 10980.9, 11497, 12025.9,
+		12579.1,13157.7, 13749.8, 14368.5, 15015.1],
+	"ldc_data": [
+        {
+		"year": 1998,
+		"type": 1,
+        "ratios":[0.9,0.87,0.93,1,0.9,0.87,0.93,1],
+		"data": ["projects/project_1/user_input/data/wasp_ldc_points_period_1.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_2.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_3.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_4.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_1.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_2.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_3.csv",
+                "projects/project_1/user_input/data/wasp_ldc_points_period_4.csv"]
+		},
+        {
+		"year": 2006,
+		"type": 2,
+        "ratios":[0.9,0.87,0.93,1,0.9,0.87,0.93,1],
+		"data": [[1.0, -3.6, 16.6, -36.8, 36.0, -12.8],
+                [1.0, -3.0, 13.85, -31.2, 31.0, -11.2],
+                [1.0, -3.0, 13.85, -31.2, 31.0, -11.2],
+                [1.0, -3.6, 16.6, -36.8, 36.0, -12.8],
+                [1.0, -3.6, 16.6, -36.8, 36.0, -12.8],
+                [1.0, -3.0, 13.85, -31.2, 31.0, -11.2],
+                [1.0, -3.0, 13.85, -31.2, 31.0, -11.2],
+                [1.0, -3.6, 16.6, -36.8, 36.0, -12.8]]
+		}
+	]
+}
